@@ -1,0 +1,33 @@
+.accordion-form{
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("../../../../../../../fondo-del-código-binario-18787760.jpg");
+    background-color: black;
+    background-position: center;
+    padding: 20px 32px 37px;
+    margin-top: 0%;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+/*--- para la vista de celular---*/
+@media (max-width: 575px){
+.conteiner{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes img{
+    margin: 0.5em;
+}
+}

@@ -1,0 +1,215 @@
+<div class="accordion-form">
+ <nav class="navbar">
+  <a class="btn btn-dark" [routerLink]="['/acceso']">DiagnostiCar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <button type="button" class="btn btn-dark" routerLink="/datos-pers"> Datos Personales</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="btn btn-dark" routerLink="/edit-pers"> Editar </button>
+
+    </li>
+    <li class="nav-item">
+      <button type="button" class="btn btn-dark" routerLink="/login"> Desconectar</button>
+
+    </li>
+  </ul>
+ </nav>
+ <div class="accordion-item1" id="accordionExample">
+  <h2 class="accordion-header" id="headingOne">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+      Datos del Conductor
+    </button>
+  </h2>
+  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <strong>
+        <ul class="list-group">
+          <li class="list-group-item"> Nombre y Apellido:</li>
+          <li class="list-group-item"> N° Documento: </li>
+          <li class="list-group-item"> N° Legajo: </li>
+          <li class="list-group-item"> N° Carnet Psicofisico:</li>
+          <li class="list-group-item"> N° Carnet Especial Solicitado: </li>
+        </ul>
+
+      </strong> 
+    </div>
+  </div>
+</div>
+
+    <div class="accordion-item1">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Registro General
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>
+            <ul class="list-group">
+              <li class="list-group-item"> Modelo del Vehiculo:<button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+              <li class="list-group-item"> N° de Patente:<button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+              <li class="list-group-item"> Fecha de Alta del Vehiculo:<button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+              <li class="list-group-item"> Fecha de Ultimo Mantenimiento:<button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+              <li class="list-group-item"> Vida Util del Vehiculo: <button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+            </ul>
+          </strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item1">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Registro Mantenimiento
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>
+            <ul class="list-group">
+              <li class="list-group-item"> Nombre Encargado del Mantenimiento: <button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+              <li class="list-group-item"> Fecha del Mantenimiento: <button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+              <li class="list-group-item"> Proximo Mantenimiento: <button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+              <li class="list-group-item"> Cantidad de repuestos: <button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+              <li class="list-group-item"> Costo del Servicio: <button class="btn btn-light"><i class="bi bi-pencil-square"></i>Editar</button></li>
+            </ul>
+          </strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item1">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Datos Ubicación
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+              <ul class="list-group">
+                <li class="list-group-item"> Hora de Inicio:</li>
+                <li class="list-group-item"> Caminos con asfalto:</li>
+                <li class="list-group-item"> Caminos sin asfalto:</li>
+                <li class="list-group-item"> Km Recorridos por día:</li>
+                <li class="list-group-item"> Hora de finalizacion:</li>
+              </ul>
+            </strong> 
+          </div>
+        </div>
+    </div>
+    <div class="accordion-item1">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Datos Automovil
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+              <ul class="list-group">
+                <li class="list-group-item"> N° Serie Microtrack:</li>
+                <li class="list-group-item"> Km Recorridos:</li>
+                <li class="list-group-item"> Nivel de Aceite:</li>
+                <li class="list-group-item"> Nivel de Agua:</li>
+                <li class="list-group-item"> Nivel de Frenos: </li>
+                <li class="list-group-item"> Nivel de Bateria: </li>
+                <li class="list-group-item"> Presion de los Neumaticos: </li>
+                <li class="list-group-item"> Funcionalidad de las Luces: </li>
+                <li class="list-group-item"> Posee Jaula antivuelco: </li>
+
+
+              </ul>
+            </strong> 
+          </div>
+        </div>
+    </div>
+    <div class="accordion-item1">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Datos Mantenimiento
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+              <ul class="list-group">
+                <li class="list-group-item"> Cambio de Aceite: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Cambio de Frenos: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Cambio de Cubiertas: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Cambio de Camaras: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Cambio de Luces: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Cambio de Airbag: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Cambio de Cinturones: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Recargar Bateria: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Estado del Chasis: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Estado del Aire acondicionado: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                
+              </ul>
+            </strong> 
+          </div>
+        </div>
+    </div>
+    <div class="accordion-item1">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            Datos Microtrack
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+              <ul class="list-group">
+                <li class="list-group-item"> Cantidad de Km Recorridos:</li>
+                <li class="list-group-item"> Datos del GPS:</li>
+                <li class="list-group-item"> Conducta del Vehiculo:</li>
+                <li class="list-group-item"> ID Microtrack: </li>
+                <li class="list-group-item"> Comunicacion Satelital </li>
+              </ul>
+            </strong> 
+          </div>
+        </div>
+    </div>
+    <div class="accordion-item1">
+        <h2 class="accordion-header" id="headingEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            Datos de Llave Magnetica
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+              <ul class="list-group">
+                <li class="list-group-item"> Titular de llave Magnetica:</li>
+                <li class="list-group-item"> ID llave Magnetica:</li>
+              </ul>
+            </strong> 
+          </div>
+        </div>
+    </div>
+    <div class="accordion-item1">
+        <h2 class="accordion-header" id="headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            Datos Seguridad
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>
+              <ul class="list-group">
+                <li class="list-group-item"> Matafuego:<button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Linga:<button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Rueda de Auxilio:<button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Airbag: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Cadenas para Nieve: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Botiquin de Primeros Auxilios: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Triangulos Balizas: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Llave Cruz: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Cables pasa Corriente: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Criquet: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+                <li class="list-group-item"> Compresor de Aire: <button class="btn btn-light">Si</button><button class="btn btn-light">No</button></li>
+              </ul>  
+            </strong>
+          </div>
+        </div>
+    </div> 
+</div>
